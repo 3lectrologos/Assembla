@@ -15,6 +15,7 @@ div#content {
   margin-top: 3em;
   margin-left: 3em;
   margin-right: 3em;
+  min-height: 300px;
 }
 
 fieldset {
@@ -335,7 +336,7 @@ div.blue-box {
   opacity: 0.9;
   background: #F9F9F9;
   margin-bottom: 2em;
-  border: 1px solid #000000;
+  border: 0px solid #000000;
   border-top: none;
   -moz-border-radius-topleft: 0px;
   -moz-border-radius-topright:0px;
@@ -568,4 +569,116 @@ div.flexible-left-col div.project-description {
 
 .project-owners .blue-box div.members-watchers {
   background: #BFDDF2;
+}
+
+/* Tickets */
+div.ttop-bar {
+  opacity: 0.9;
+  background: #F6F6F6;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.ttop-bar + div {
+  opacity: 0.9;
+  background: #F6F6F6;
+  padding: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.ttop-bar + div div {
+  margin: 0 !important;
+}
+
+.ttop-bar + div div h1 {
+  margin-bottom: 1em;
+}
+
+/* Ticket details */
+div#main em {
+  background: none;
+}
+
+/* Milestones */
+.milestones .milestone-wrap {
+  opacity: 0.9;
+  background: #F6F6F6;
+  width: auto;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.milestones .top-bar-wrap {
+  opacity: 0.9;
+  background: #F6F6F6;
+  padding: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.milestones .top-bar-wrap .float-left {
+  padding-bottom: 24px;
+}
+
+.milestones .mnormal {
+  -moz-border-radius-topleft: 7px;
+  -moz-border-radius-topright:7px;
+  -moz-border-radius-bottomleft:7px;
+  -moz-border-radius-bottomright:7px;
+  -webkit-border-top-left-radius:7px;
+  -webkit-border-top-right-radius:7px;
+  -webkit-border-bottom-left-radius:7px;
+  -webkit-border-bottom-right-radius:7px;
+  border-top-left-radius:7px;
+  border-top-right-radius:7px;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
 }
