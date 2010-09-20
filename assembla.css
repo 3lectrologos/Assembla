@@ -7,7 +7,7 @@
 body {
   background: #000000 url(http://github.com/3lectrologos/Assembla/raw/master/earth.jpeg) no-repeat;
   background-attachment: fixed;
-  background-position: -200px -100px;
+  background-position: -200px 0px;
 }
 
 pre {
@@ -300,8 +300,9 @@ div.video-link {
 /* Footer */
 #footer-w {
   margin-top: 3em;
-  background: #BBBBBB;
-  border-top: 2px dotted #666666;
+  /* background: #BBBBBB; */
+  background: url(http://github.com/3lectrologos/Assembla/raw/master/footer_grad.png) repeat-x left top;
+  /* border-top: 2px dotted #666666; */
 }
 
 #footer {
@@ -311,6 +312,10 @@ div.video-link {
 
 #footer a:link, #footer a:visited {
   color: #333333;
+}
+
+.addthis_toolbox {
+  margin-top: 1em;
 }
 
 /* Boxes */
