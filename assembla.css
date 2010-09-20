@@ -314,9 +314,9 @@ div.video-link {
 }
 
 /* Boxes */
-.big-url-panel + h2.blue-box-title {
+.big-url-panel + h2.blue-box-title, .project-dashboard h2.blue-box-title {
   opacity: 0.9;
-  font-size: 120%;
+  font-size: 110%;
   background: #5A9ECF;
   margin-top: 2em;
   /* border: 1px solid #000000; */
@@ -335,7 +335,7 @@ div.video-link {
   border-bottom-right-radius:0px;
 }
 
-.big-url-panel + h2.blue-box-title + div.blue-box {
+.big-url-panel + h2.blue-box-title + div.blue-box, .project-dashboard .blue-box {
   opacity: 0.9;
   background: #F9F9F9;
   margin-bottom: 2em;
@@ -433,7 +433,7 @@ input + fieldset {
 }
 
 /* Url panel */
-.big-url-panel {
+#content > h1.big-url-panel {
   opacity: 0.9;
   background-color: #5A9ECF;
   font-size: 1.2em;
@@ -492,6 +492,45 @@ div.msidebar {
 }
 
 /* Admin -> Tools */
+.tools-title {
+  opacity: 0.9;
+  background: #F6F6F6;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.tools-admin-content h2.blue-box-title {
+  opacity: 0.9;
+  font-size: 110%;
+  background: #5A9ECF;
+  margin-top: 2em;
+  border-bottom: none;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:0px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
 .tools-admin-content .listed-tool {
   opacity: 0.9;
   background: #F6F6F6;
@@ -646,6 +685,44 @@ div.flexible-left-col div.project-description {
   border-bottom-right-radius:7px;
 }
 
+/* Milestones -> Calendar */
+div#metrics-calendar {
+  opacity: 0.9;
+  background: #F6F6F6;
+  padding: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+/* Milestones -> Import/Export */
+div#tool_page {
+  opacity: 0.9;
+  background: #FFFFFF;
+  padding: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
 /* Text area like this */
 textarea#space_style {
   font-size: 11px;
@@ -731,6 +808,48 @@ div#main em {
   display: none;
 }
 
+/* Tickets -> Filter */
+div#content > div > div > h1 {
+  display: block;
+  background: #F6F6F6;
+  opacity: 0.9;
+  width: auto;
+  padding: 1.5em;
+  margin-bottom: 0;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:0px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+div#content > div > div > h1 + div {
+  background: #F6F6F6 !important;
+  margin-top: 0 !important;
+  opacity: 0.9;
+  width: auto;
+  padding: 2em !important;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright:0px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
 /* Tickets -> Search */
 #content > .content {
   background: #F6F6F6;
@@ -750,20 +869,80 @@ div#main em {
   border-bottom-right-radius:15px;
 }
 
+/* Tickets -> Burndown */
+div.cut + div > h2 {
+  display: block;
+  background: #F6F6F6;
+  opacity: 0.9;
+  width: auto;
+  padding: 1.5em;
+  margin-bottom: 0;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:0px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+#content > div > div#chart.jqplot-target {
+  background: #F6F6F6;
+  opacity: 0.9;
+  width: auto !important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  margin-bottom: 0;
+  padding: 2em !important;
+}
+
+
+div#chart + table#details {
+  background: #F6F6F6;
+  opacity: 0.9;
+  padding: 2em !important;
+  margin-top: 0 !important;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright:0px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+div.burndown-controls {
+  background: #F6F6F6;
+  opacity: 0.9;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 5em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
 /* Tickets -> Agile planner */
-
-div div.burndown-controls {
-  background: #F6F6F6;
-  opacity: 0.9;
-  padding: 2em;
-}
-
-.burndown-controls + div {
-  background: #F6F6F6;
-  opacity: 0.9;
-  padding: 2em;
-}
-
 #agile_planner_page fieldset {
   background: none;
   padding: 0;
@@ -861,6 +1040,80 @@ div div.burndown-controls {
   -webkit-border-bottom-right-radius:15px;
   border-top-left-radius:0px;
   border-top-right-radius:0px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+/* Team */
+#team-page .green-box {
+  background: #F6F6F6;
+  opacity: 0.9;
+  padding: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+#team-page .green-box-title {
+  background: #F6F6F6;
+  opacity: 0.9;
+  padding: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:0px;
+  -moz-border-radius-bottomright:0px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:0px;
+  -webkit-border-bottom-right-radius:0px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+#team-page .green-box-title + .green-box {
+  background: #F6F6F6;
+  opacity: 0.9;
+  padding: 2em;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright:0px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+/* Wiki */
+div.wiki-tool-wrap {
+  background: #F6F6F6;
+  opacity: 0.9;
+  padding: 2em;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright:15px;
+  -moz-border-radius-bottomleft:15px;
+  -moz-border-radius-bottomright:15px;
+  -webkit-border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
   border-bottom-left-radius:15px;
   border-bottom-right-radius:15px;
 }
