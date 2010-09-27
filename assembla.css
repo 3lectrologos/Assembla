@@ -784,6 +784,36 @@ div.ttop-bar {
   margin-bottom: 1em;
 }
 
+#ticket_list tr td {
+  border-color: #AAAAAA !important;
+}
+
+#ticket_list tr th {
+  border: 1px solid #AAAAAA !important;
+  background: #EEEEEE !important;
+}
+
+/* Ticket table headers */
+#ticket_list .title-division h3 {
+  border: 1px solid #aaaaaa !important;
+  border-bottom: 0px !important;
+  background: #EEEEEE !important;
+}
+
+/* Ticket table row colors by priority */
+.tickets tr.color1-odd  td { background: #EBA2A2; }
+.tickets tr.color1-even td{ background: #EBA2A2; }
+.tickets tr.color2-odd td { background: #EBD9A2; }
+.tickets tr.color2-even td{ background: #EBD9A2; }
+.tickets tr.color3-odd td { background: #C1E6C1; }
+.tickets tr.color3-even td{ background: #C1E6C1; }
+.tickets tr.color4-odd  td { background:  #C8DAE8; }
+.tickets tr.color4-even td{ background: #C8DAE8; }
+.tickets tr.color5-odd  td{ background: #E8E8E8; }
+.tickets tr.color5-even td{ background: #E8E8E8;  }
+.tickets tr.color6-odd td { }
+.tickets tr.color6-even td { }
+
 /* Ticket details */
 div#main em {
   background: none;
